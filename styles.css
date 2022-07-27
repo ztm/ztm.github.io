@@ -12,17 +12,17 @@ Linkek és alcímek színe: #ff0099
 */
 
 body {
-	background-image: url("../assets/perforated_white_leather.png");
+	background-image: url("assets/perforated_white_leather.png");
 }
 
 @font-face {
 	font-family: BreeSerif;
-	src: url('../assets/BreeSerif-Regular.ttf');
+	src: url('assets/BreeSerif-Regular.ttf');
 }
 
 @font-face {
 	font-family: RussoOne;
-	src: url('../assets/RussoOne-Regular.ttf');
+	src: url('assets/RussoOne-Regular.ttf');
 }
 
 .navBarLine {
@@ -36,21 +36,21 @@ body {
 }
 
 img {
-	height: 40px;
+	height: 80%;
 	float: left;
-	margin-top: 5px;
+	margin-top: 0.5%;
 }
 
 nav {
 	text-align: right;
-	padding-top: 10px;
+	padding-top: 0.8%;
 }
 
 Nav a {
 	font-family: BreeSerif;
 	font-size: 20px;
 	color: #ff0099;
-	padding: 12px;
+	padding: 1%;
 	text-decoration:none;
 }
 
@@ -67,7 +67,7 @@ h1 {
 	margin-bottom: 0;
 }
 
-h3 {
+h2 {
 	font-family: BreeSerif;
 	color: #ff0099;
 	font-size: 35px;
@@ -76,7 +76,7 @@ h3 {
 	margin-bottom: 0;
 }
 
-h4 {
+h3 {
 	font-family: 'Courier New', Courier, monospace;
 	color: #ff0099;
 	font-size: 30px;
