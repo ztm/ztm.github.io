@@ -1,0 +1,93 @@
+/*
+Paddings (kitöltés)
+Margins (margó)
+Line-height (sor magasság)
+Font-sizes (betűméret)
+Pozicionáld középre a tartalmat
+10% padding (kitöltés) a két szélen
+Használj valamilyen google betűtípust
+A "Base text font" (vagyis alap betűtípus) legyen consolas vagy courier
+A Header (fejléc) háttérszíne: #333333
+Linkek és alcímek színe: #ff0099
+*/
+
+body {
+	background-image: url("../assets/perforated_white_leather.png");
+}
+
+@font-face {
+	font-family: BreeSerif;
+	src: url('../assets/BreeSerif-Regular.ttf');
+}
+
+@font-face {
+	font-family: RussoOne;
+	src: url('../assets/RussoOne-Regular.ttf');
+}
+
+.navBarLine {
+	background-color: #333333;
+	height: 50px;
+}
+
+.setSideMargin {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+img {
+	height: 40px;
+	float: left;
+	margin-top: 5px;
+}
+
+nav {
+	text-align: right;
+	padding-top: 10px;
+}
+
+Nav a {
+	font-family: BreeSerif;
+	font-size: 20px;
+	color: #ff0099;
+	padding: 12px;
+	text-decoration:none;
+}
+
+Nav a:hover {
+   color: yellow;
+   text-decoration: underline;
+}
+
+h1 {
+	font-family: RussoOne;
+    color: black;
+    font-size: 45px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-family: BreeSerif;
+	color: #ff0099;
+	font-size: 35px;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+h4 {
+	font-family: 'Courier New', Courier, monospace;
+	color: #ff0099;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+p {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 18px;
+}
+
+p.verticalSpace {
+	margin-bottom: 3em
+}

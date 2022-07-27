@@ -1,70 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DocTitle</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>myFirstWebpage</title>
+    <link rel="icon" type="image/png" href="../assets/sitepoint.png">
 </head>
+
 <body>
-    <h1>Első honlap. Teszt.</h1>
-    <h3>Első honlap. Teszt.</h3>
-    <h6>Első honlap. Teszt.</h6>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>It's <em>fontos</em> <strong>szoveg</strong>.</p>
-    <p>It's <i>fontos</i> <b>szoveg</b>.</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    
-    
-    <h2 id="content">Content</h2>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    <p>Ez egy bekezdés</p>
-    
+    <header>
+        <div class="navBarLine">
+            <img class="setSideMargin" src="../assets/sitepointMOD.png" alt="logo">
+            <nav class="setSideMargin">
+                <a href="index.html">Home</a>
+                <a href="https://www.wikipedia.org" target="_blank">Wiki</a>
+                <a href="https://github.com/" target="_blank">Github</a>
+                <a href="https://hu.linkedin.com/" target="_blank">Linkedin</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="setSideMargin">
+        <!-- Just have some extra space -->
+        <p style="margin-bottom: 5em;"></p>
+
+        <section>
+            <h1>Jakab Zoltán</h1>
+            <h3>GreenFox Junior Sysadmin</h3>
+            <p>Karrierváltás céljából jelentkeztem az Újrakezdés 3.0 programba, ahol egy lelkes csapattal próbálom
+                megszerezni az ehhez szükséges alaptudást szuper mentori támogatással.
+                <br><br>
+                A jövőmet rendszerüzemeltetőként képzelem el. Esetleg hacker-ként. 
+                <span style="color: #ff0099;">&#128525</span>
+            </p>
+        </section>
+
+        <p class="verticalSpace"></p>
+        <p style="text-align: center; font-weight: 900;">- - -</p>
+        <p class="verticalSpace"></p>
+
+        <section>
+            <p style="text-align: center; font-size: 35px; font-weight: 900;">Technology Wiki</p>
+            <p class="verticalSpace"></p>
+
+            <h4>Logikai kapu</h4>
+            <p>Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg egy vagy több bináris
+                bemeneten és produkál egy bináris kimenetet.
+            </p>
+
+            <h4>ASCII</h4>
+            <p>Az angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat értik,
+                így a 'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja le.
+            </p>
+
+            <h4>RAM</h4>
+            <p>Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó programokat
+                és a feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága független az 
+                elhelyezkedésétől.
+            </p>
+
+            <h4>Algoritmus / program</h4>
+            <p>A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata,
+                amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel 
+                egy adott feladat elvégzésének módját.
+            </p>
+
+            <h4>DNS (Domain Name System)</h4>
+            <p>Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások, illetve
+                az internetre vagy egy magánhálózatra kötött bármilyen erőforrás számára.
+            </p>
+
+            <h4>HTTP</h4>
+            <p>Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A World
+                Wide Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext cseréjére és mozgatására.
+            </p>
+        </section>
+    </div>
+
 </body>
+
 </html>
