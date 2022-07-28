@@ -45,18 +45,6 @@ li a {
 	text-transform: uppercase;
 }
 
-/*nav links stays inside navbar on small screens and adjust logo vertically*/
-@media only screen and (max-width: 600px) {
-    li a {
-		font-size: 0.9rem;
-        padding-left: 0.4rem;
-    }
-
-	img {
-		padding-top: 0.9%
-	}
-}
-
 li a:hover {
    color: green;
    text-decoration: underline;
@@ -128,4 +116,20 @@ p.definition {
 	text-align: center; 
 	font-size: 2.4rem; 
 	font-weight: 900;
+}
+
+/*nav links stays inside navbar on small screens and adjust logo vertically*/
+@media only screen and (max-width: 600px) {
+    li a {
+		font-size: 0.9rem;
+        padding-left: 0.4rem;
+    }
+
+	img {
+		padding-top: 0.9%
+	}
+
+	footer {
+		font-size: 0.5rem;
+	}
 }
