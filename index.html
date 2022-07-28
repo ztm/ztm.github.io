@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Rampart+One&display=swap"
+        rel="stylesheet">
 
     <title>GF First project</title>
     <link rel="icon" type="image/png" href="assets/sitepoint.png">
@@ -14,20 +16,20 @@
 
 <body>
     <header>
-        <div class="navBarLine">
-            <img class="setSideMargin" src="assets/sitepointMOD.png" alt="logo">
-            <nav class="setSideMargin">
-                <a href="index.html">Home</a>
-                <a href="https://www.wikipedia.org" target="_blank">Wiki</a>
-                <a href="https://github.com/" target="_blank">Github</a>
-                <a href="https://hu.linkedin.com/" target="_blank">Linkedin</a>
-            </nav>
-        </div>
+        <img id="logo" class="setSideMargin" src="assets/sitepointMOD.png" alt="logo">
+        <nav class="setSideMargin">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#techWiki">Wiki</a></li>
+                <li><a href="https://github.com/" target="_blank">Github</a></li>
+                <li><a href="https://hu.linkedin.com/" target="_blank">Linkedin</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div class="setSideMargin">
         <!-- Just have some extra space -->
-        <p style="margin-bottom: 5rem;"></p>
+        <p class="verticalSpaceBig"></p>
 
         <section>
             <h1>Jakab Zoltán</h1>
@@ -46,23 +48,23 @@
         </section>
 
         <p class="verticalSpace"></p>
-        <p style="text-align: center; font-weight: 900;">&#151;&nbsp;&nbsp;&#151;&nbsp;&nbsp;&#151;</p>
+        <p id="separator">&#8212;&nbsp;&nbsp;&#8212;&nbsp;&nbsp;&#8212;</p>
         <p class="verticalSpace"></p>
 
         <section>
-            <p style="text-align: center; font-size: 2.4rem; font-weight: 900;">Technology Wiki</p>
+            <h2 id="techWiki">Technology Wiki</h2>
             <p class="verticalSpace"></p>
 
             <article>
                 <h3>Logikai kapu</h3>
-                <p>Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg egy vagy több bináris
+                <p class="definition">Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg egy vagy több bináris
                     bemeneten és produkál egy bináris kimenetet.
                 </p>
             </article>
 
             <article>
                 <h3>ASCII</h3>
-                <p>Az angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat
+                <p class="definition">Az angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat
                     értik,
                     így a 'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja le.
                 </p>
@@ -70,7 +72,7 @@
 
             <article>
                 <h3>RAM</h3>
-                <p>Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó
+                <p class="definition">Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó
                     programokat
                     és a feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága független az
                     elhelyezkedésétől.
@@ -79,7 +81,7 @@
 
             <article>
                 <h3>Algoritmus / program</h3>
-                <p>A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata,
+                <p class="definition">A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata,
                     amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel
                     egy adott feladat elvégzésének módját.
                 </p>
@@ -87,7 +89,7 @@
 
             <article>
                 <h3>DNS (Domain Name System)</h3>
-                <p>Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások,
+                <p class="definition">Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások,
                     illetve
                     az internetre vagy egy magánhálózatra kötött bármilyen erőforrás számára.
                 </p>
@@ -95,7 +97,7 @@
 
             <article>
                 <h3>HTTP</h3>
-                <p>Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A
+                <p class="definition">Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A
                     World
                     Wide Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext cseréjére és
                     mozgatására.
@@ -103,6 +105,10 @@
             </article>
         </section>
     </div>
+
+    <footer class="setSideMargin">
+        <br>&copy;ztm, 2022
+    </footer>
 
 </body>
 
