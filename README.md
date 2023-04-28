@@ -1,5 +1,5 @@
-# <p align="center">AlarmFirst</p>
-### <p align="center">Adatbázis vagyonvédelmi területen távfelügyeleti szolgáltatást nyújtó cégek részére</p>
+# <p style="text-align: center;">AlarmFirst</p>
+### <p style="text-align: center;">Adatbázis vagyonvédelmi területen távfelügyeleti szolgáltatást nyújtó cégek részére</p>
 &nbsp;
 ## Adatbázis rövid ismertetése
 Célja, hogy a cég napi tevékenységét elősegítse. Rögzíti az ügyfelek szerződéses adatait, nyilvántartja a cég személyi-, és eszközállományát, elősegíti a járőrszolgálat tevékenységét.\
@@ -28,11 +28,11 @@ A telepítő csomag 3db file-t tartalmaz:
 * AlarmFirst.bak
 
 
-Az üres adatbázis telepíthető a [01-create_script.sql](https://github.com/green-fox-academy/ztm-masterwork/blob/master/01-create_script.sql) futtatásával vagy az `AlarmFirst.bak` file-ból történő visszaállítással.\
-Az üres adatbázist a [02-insert_sample_data.sql](https://github.com/green-fox-academy/ztm-masterwork/blob/master/02-insert_sample_data.sql) futtatásával tölthetjük fel mintaadatokkal.
+Az üres adatbázis telepíthető a [01-create_script.sql](https://github.com/ztm/ztm.github.io/blob/main/01-create_script.sql) futtatásával vagy az `AlarmFirst.bak` file-ból történő visszaállítással.\
+Az üres adatbázist a [02-insert_sample_data.sql](https://github.com/ztm/ztm.github.io/blob/main/02-insert_sample_data.sql) futtatásával tölthetjük fel mintaadatokkal.
 
 ## Adatbázis ER-diagram
-Az adatbázis ER diagramja megtalálható a feltöltött [ssms-er-diagram.pdf](https://github.com/green-fox-academy/ztm-masterwork/blob/master/ssms-er-diagram.pdf) file-ban. A táblakapcsolatok elemei (Foreign Key - Primary Key párok) a diagramról egyértelműen beazonosíthatók.
+Az adatbázis ER diagramja megtalálható a feltöltött [ssms-er-diagram.pdf](https://github.com/ztm/ztm.github.io/blob/main/ssms-er-diagram.pdf) file-ban. A táblakapcsolatok elemei (Foreign Key - Primary Key párok) a diagramról egyértelműen beazonosíthatók.
 
 ## Adatbázis elemei
 Az adatbázis a 3NF normál formának megfelelően került kialakításra, az alábbi objektumokat tartalmazza:
@@ -48,7 +48,7 @@ Az adatbázis a 3NF normál formának megfelelően került kialakításra, az al
 
 ## Adatbázis elemek részletesebb ismertetése
 ## *Táblák*
-Constraint szinten a táblák többsége tartalmaz DEFAULT és/vagy CHECK constraint-et. A táblák leírásában az evidenseket nem említem meg külön, a mellékelt [01-create_script.sql](https://github.com/green-fox-academy/ztm-masterwork/blob/master/01-create_script.sql) file-ban elemezhetők. Kiemelésre csak a megszokottól eltérők kerülnek.\
+Constraint szinten a táblák többsége tartalmaz DEFAULT és/vagy CHECK constraint-et. A táblák leírásában az evidenseket nem említem meg külön, a mellékelt [01-create_script.sql](https://github.com/ztm/ztm.github.io/blob/main/01-create_script.sql) file-ban elemezhetők. Kiemelésre csak a megszokottól eltérők kerülnek.\
 Általánosságban elmondható, hogy minden táblán a Foreign Key oszlopokon nonclustered index van. Index szinten is csak a különlegesebbek (UNIQUE filtered, spatial) kerülnek említésre.
 
 ### *Customer*
