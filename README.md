@@ -1,5 +1,5 @@
-# <p style="text-align: center;">AlarmFirst</p>
-### <p style="text-align: center;">Adatbázis vagyonvédelmi területen távfelügyeleti szolgáltatást nyújtó cégek részére</p>
+# <center>AlarmFirst</center>
+### <center>Adatbázis vagyonvédelmi területen távfelügyeleti szolgáltatást nyújtó cégek részére</center>
 &nbsp;
 ## Adatbázis rövid ismertetése
 Célja, hogy a cég napi tevékenységét elősegítse. Rögzíti az ügyfelek szerződéses adatait, nyilvántartja a cég személyi-, és eszközállományát, elősegíti a járőrszolgálat tevékenységét.\
