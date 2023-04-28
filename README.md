@@ -28,7 +28,7 @@ A telepítő csomag 3db file-t tartalmaz:
 * AlarmFirst.bak
 
 
-Az üres adatbázis telepíthető a [01-create_script.sql](https://github.com/ztm/ztm.github.io/blob/main/01-create_script.sql) futtatásával vagy az `AlarmFirst.bak` file-ból történő visszaállítással.\
+Az üres adatbázis telepíthető a [01-create_script.sql](https://github.com/ztm/ztm.github.io/blob/main/01-create_script.sql) futtatásával vagy az [AlarmFirst.bak](https://github.com/ztm/ztm.github.io/blob/main/AlarmFirst.bak) file-ból történő visszaállítással.\
 Az üres adatbázist a [02-insert_sample_data.sql](https://github.com/ztm/ztm.github.io/blob/main/02-insert_sample_data.sql) futtatásával tölthetjük fel mintaadatokkal.
 
 ## Adatbázis ER-diagram
