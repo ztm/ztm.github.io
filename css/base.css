@@ -1,0 +1,34 @@
+/* -- Háttér -- */
+body {
+	/*background-image: url("../image/background/perforated_white_leather.png");*/
+	background-image: url("../image/background/skyscraper.png");
+}
+
+/* színek*/
+.szinek {
+	background-color: #0080ff;
+	color: white;
+}
+
+a[href^="mailto"] {
+	color: yellow;
+}
+
+/* Jobbra és balra igazít */
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+/* Lista formázása */
+ul {
+  list-style: square;
+}​
+
+/* Firefox BOLD fonts */
+strong, b {
+    font-weight: bold;
+}

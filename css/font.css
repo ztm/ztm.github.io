@@ -1,0 +1,32 @@
+/* -- Használt betűtípusok --*/
+
+/* -- Fejléc formázása --*/
+@font-face {
+	font-family: fejlecfont;
+	src: url('../fonts/Play-Bold.eot'); 																		/* IE9 */
+	src: url('../fonts/Play-Bold.eot?#iefix') format('embedded-opentype'),	/* IE6-IE8 */
+			 url('../fonts/Play-Bold.woff') format('woff'),											/* pretty modern browsers */
+			 url('../fonts/Play-Bold.woff2') format('woff2'),										/* super modern browsers */
+			 url('../fonts/Play-Bold.otf') format('opentupe'),
+			 url('../fonts/Play-Bold.ttf') format('truetype'),									/* Safari, Android, iOS */
+			 url('../fonts/Play-Bold.svg') format('svg');												/* Legacy iOS */
+}
+.fejlecfont {
+	font-family: fejlecfont;
+}
+
+
+/* -- Normál szöveghez --*/
+@font-face {
+	font-family: szovegfont;
+	src: url('../fonts/Ubuntu-Regular.eot'); 																		/* IE9 */
+	src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),	/* IE6-IE8 */
+			 url('../fonts/Ubuntu-Regular.woff') format('woff'),										/* pretty modern browsers */
+			 url('../fonts/Ubuntu-Regular.woff2') format('woff2'),									/* super modern browsers */
+			 url('../fonts/Ubuntu-Regular.otf') format('opentupe'),
+			 url('../fonts/Ubuntu-Regular.ttf') format('truetype'),									/* Safari, Android, iOS */
+			 url('../fonts/Ubuntu-Regular.svg') format('svg');											/* Legacy iOS */
+}
+.szovegfont {
+	font-family: szovegfont;
+}
